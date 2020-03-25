@@ -67,9 +67,10 @@ public class Task2 {
             }
             input.nextLine();
         }  while(flag);
-        System.out.print("Enter the values: ");
+
         array = new double[arraySize];
         do{
+            System.out.print("Enter the values: ");
             flag=false;
             for(int i=0;i<array.length&& !flag;i++){
                 if(input.hasNextDouble()){
